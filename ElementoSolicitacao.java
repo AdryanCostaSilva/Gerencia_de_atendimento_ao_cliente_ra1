@@ -1,11 +1,13 @@
-public class Elemento {
+public class ElementoSolicitacao {
     private String id;
     private String descricao;
     private String dataHora;
-    private String nome;
-    private String motivo;
 
-    public Elemento(){}
+    public ElementoSolicitacao(String id, String descricao, String dataHora){
+        this.id = id;
+        this.descricao = descricao;
+        this.dataHora = dataHora;
+    }
 
     public String getDataHora() {
         return dataHora;
@@ -31,19 +33,4 @@ public class Elemento {
         this.id = id;
     }
 
-    public String getMotivo() {
-        return motivo;
-    }
-
-    public void setMotivo(String motivo) {
-        this.motivo = motivo;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
 }
