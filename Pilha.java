@@ -17,6 +17,9 @@ public class Pilha {
             System.out.println("Nenhuma solicitação na pilha!");
             return;
         }
+
+        System.out.println("Solicitação " + topo.getInformation().getDescricao() + "removida!" );
+
         topo = topo.getNextNode();
     }
 

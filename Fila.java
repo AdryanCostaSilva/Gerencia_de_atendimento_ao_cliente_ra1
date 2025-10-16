@@ -27,6 +27,7 @@ public class Fila {
             return;
         }
 
+        System.out.println("Cliente" + primeiro.getInformation().getNome() + "atendido!");
         primeiro = primeiro.getNextNode();
 
         if (primeiro == null){
