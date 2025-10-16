@@ -10,7 +10,12 @@
 		-Hussein Ali El Gazouini
 		-Murilo Zimerman Fortaleza
 */
+import java.util.Scanner;
 
 public class Main{
-	public static void main(String[]args){}
+	public static void main(String[]args){
+		Scanner scanner = new Scanner(System.in);
+		Menu menu = new Menu();
+		menu.menu(scanner);
+	}
 }
