@@ -1,5 +1,5 @@
 public class Node {
-    private Integer information;
+    private Elemento information;
     private Node nextNode;
 
     public Node(){
@@ -7,11 +7,11 @@ public class Node {
         this.nextNode = null;
     }
 
-    public void setInformation(Integer information){
+    public void setInformation(Elemento information){
         this.information = information;
     }
 
-    public Integer getInformation(){
+    public Elemento getInformation(){
         return information;
     }
 
