@@ -15,7 +15,7 @@ public class Node {
         return information;
     }
 
-    public void setNextNode(){
+    public void setNextNode(Node nextNode){
         this.nextNode = nextNode;
     }
 
