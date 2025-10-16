@@ -28,7 +28,7 @@ public class Fila {
             return;
         }
 
-        System.out.println("Cliente" + primeiro.getInformation().getNome() + " atendido!");
+        System.out.println("Cliente " + primeiro.getInformation().getNome() + " atendido!");
         primeiro = primeiro.getNextNode();
 
         if (primeiro == null){
@@ -41,7 +41,7 @@ public class Fila {
         int count = 0;
         while (atual != null){
             count ++;
-            System.out.println("["+count+"] Cliente - ID: "+atual.getInformation().getId()+ " | Nome: "+atual.getInformation().getNome()+"| Motivo da solicitação: "+atual.getInformation().getMotivo());
+            System.out.println("["+count+"] Cliente - ID: "+atual.getInformation().getId()+ " | Nome: "+atual.getInformation().getNome()+" | Motivo da solicitação: "+atual.getInformation().getMotivo());
             atual = atual.getNextNode();
         }
     }
