@@ -10,6 +10,7 @@ public class Pilha {
        novo.setInformation(elemento);
        novo.setNextNode(this.topo);
        topo = novo;
+       System.out.println("Solicitação: " + elemento.getDescricao() + " -> adicionado!");
     }
 
     public void removerSolicitacao(){
@@ -18,7 +19,7 @@ public class Pilha {
             return;
         }
 
-        System.out.println("Solicitação " + topo.getInformation().getDescricao() + "removida!" );
+        System.out.println("Solicitação " + topo.getInformation().getDescricao() + " removida!" );
 
         topo = topo.getNextNode();
     }

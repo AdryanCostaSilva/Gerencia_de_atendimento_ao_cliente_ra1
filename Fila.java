@@ -19,6 +19,7 @@ public class Fila {
             ultimo.setNextNode(novoCLiente);
             ultimo = novoCLiente;
         }
+        System.out.println("Cliente: " + cliente.getNome() + " -> adicionado!");
     }
 
     public void atenderCliente(){
@@ -27,7 +28,7 @@ public class Fila {
             return;
         }
 
-        System.out.println("Cliente" + primeiro.getInformation().getNome() + "atendido!");
+        System.out.println("Cliente" + primeiro.getInformation().getNome() + " atendido!");
         primeiro = primeiro.getNextNode();
 
         if (primeiro == null){
