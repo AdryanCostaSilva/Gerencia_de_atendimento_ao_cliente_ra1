@@ -5,21 +5,22 @@ public class Pilha {
         this.topo = null;
     }
 
-    public void inserir(ElementoSolicitacao elemento){
+    public void inserirSolicitacao(ElementoSolicitacao elemento){
        NodeSolicitacao novo = new NodeSolicitacao();
        novo.setInformation(elemento);
        novo.setNextNode(this.topo);
        topo = novo;
     }
 
-    public void remover(){
+    public void removerSolicitacao(){
         if (vazia()){
+            System.out.println("Nenhuma solicitação na pilha!");
             return;
         }
         topo = topo.getNextNode();
     }
 
-    public void imprimir(){
+    public void imprimirSolicitacoes(){
         int count = 0;
         NodeSolicitacao atual = topo;
         while (atual != null){
