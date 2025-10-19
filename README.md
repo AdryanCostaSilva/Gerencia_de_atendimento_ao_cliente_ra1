@@ -1,8 +1,9 @@
 # Atividade Pratica Supervisionada 1 RA01 - Fila e Pilha
 ## Curso: Ciência da Computação - PUCPR
-## Semestre: 4° 
+## Semestre: 4°
+## Turma: B 
 ## Matéria: Resolução de problemas estruturados em computação 
-
+## Profesor: Andrey Cabral Meira
 ---
 
 ## Grupo:
